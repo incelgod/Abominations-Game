@@ -332,6 +332,7 @@ def inBattleFunction(surface):
         pygame.display.update()
         
 def inOfficeFunction(surface):
+    pokeCenterTheme.stop()
     pokeCenterTheme.play()
     global run
     global overWorld
@@ -408,6 +409,8 @@ def inOfficeFunction(surface):
         pygame.display.update()
     
 def inFreezerFunction(surface):
+    pokeCenterTheme.stop()
+    pokeCenterTheme.play()
     global run
     global overWorld
     global inFreezer
