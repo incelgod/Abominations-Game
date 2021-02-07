@@ -598,7 +598,7 @@ def inOfficeFunction(surface):
             char.faceRight = False
             char.faceUp = False
             char.faceDown = True
-        elif keys[pygame.K_SPACE] and char.x < (math.floor(.3443*(screenWidth))) and char.x > 950 and char.y < (math.floor(.4217*(screenHeight))) and char.y > (math.floor(.3012*(screenHeight))):
+        elif keys[pygame.K_SPACE] and char.x < (math.floor(.3443*(screenWidth))) and char.x > (math.floor(.2844*(screenWidth))) and char.y < (math.floor(.4217*(screenHeight))) and char.y > (math.floor(.3012*(screenHeight))):
             dialogue = True
             dialogueFunction(window, 'Ayy Im Italian baby, you wanna tustle wid dis muscle?', 'Yes', 'No')
         elif char.x > (math.floor(.0599*(screenWidth))) and char.x < (math.floor(.1198*(screenWidth))) and char.y > (math.floor(.3313*(screenHeight))) and char.y < (math.floor(.5060*(screenHeight))) and inFreezer == False:
@@ -770,11 +770,11 @@ def fusingMachineFunction(surface):
         surface.fill((0,0,0))
         pygame.draw.rect(surface, (200,200,200), ((math.floor(.0749*(screenWidth))),(math.floor(.0663*(screenHeight))),(math.floor(.8503*(screenWidth))),(math.floor(.8494*(screenHeight)))))
         pygame.draw.rect(surface, (0,0,0), ((math.floor(.1497*(screenWidth))),(math.floor(.2410*(screenHeight))),(math.floor(.1497*(screenWidth))),(math.floor(.3012*(screenHeight)))))
-        pygame.draw.rect(surface, (200,200,200), ((math.floor(.1512*(screenWidth))),405,(math.floor(.1467*(screenWidth))),(math.floor(.2952*(screenHeight)))))        
+        pygame.draw.rect(surface, (200,200,200), ((math.floor(.1512*(screenWidth))),(math.floor(.2440*(screenHeight))),(math.floor(.1467*(screenWidth))),(math.floor(.2952*(screenHeight)))))        
         pygame.draw.rect(surface, (0,0,0), ((math.floor(.4251*(screenWidth))),(math.floor(.2410*(screenHeight))),(math.floor(.1497*(screenWidth))),(math.floor(.3012*(screenHeight)))))
-        pygame.draw.rect(surface, (200,200,200), ((math.floor(.4266*(screenWidth))),405,(math.floor(.1467*(screenWidth))),(math.floor(.2952*(screenHeight)))))
+        pygame.draw.rect(surface, (200,200,200), ((math.floor(.4266*(screenWidth))),(math.floor(.2440*(screenHeight))),(math.floor(.1467*(screenWidth))),(math.floor(.2952*(screenHeight)))))
         pygame.draw.rect(surface, (0,0,0), ((math.floor(.6886*(screenWidth))),(math.floor(.2410*(screenHeight))),(math.floor(.1497*(screenWidth))),(math.floor(.3012*(screenHeight)))))
-        pygame.draw.rect(surface, (200,200,200), ((math.floor(.6901*(screenWidth))),405,(math.floor(.1467*(screenWidth))),(math.floor(.2952*(screenHeight)))))
+        pygame.draw.rect(surface, (200,200,200), ((math.floor(.6901*(screenWidth))),(math.floor(.2440*(screenHeight))),(math.floor(.1467*(screenWidth))),(math.floor(.2952*(screenHeight)))))
         
         pygame.draw.rect(surface, (0,0,0), buttonUp1)
         pygame.draw.rect(surface, (0,0,0), buttonDown1)
